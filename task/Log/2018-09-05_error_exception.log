@@ -1,0 +1,81 @@
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:14
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(17): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:14
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(17): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:14
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(17): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:14
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(17): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:14
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(17): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:15
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'Exception' with message '这是异常' in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php:15
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#1 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#2 F:\htdocs\YzmPHP\admin\index.php(11): YzmPHP->run()
+#3 {main}
+exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'msgs'' in F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php:62
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(62): PDO->__construct('mysql:host=127....', 'root', 'root')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(174): YmzDbPdo->connect()
+#2 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(17): YmzDbPdo->getRows('select * from c...')
+#3 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#4 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'index')
+#5 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#6 {main}
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=32' at line 1' in F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php:111
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(111): PDO->exec('UPDATE user SET...')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(281): YmzDbPdo->query('UPDATE user SET...')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\Model.php(36): YmzDbPdo->update('user', Array, 'id=32')
+#3 F:\htdocs\YzmPHP\admin\App\Action\user.action.php(67): Model->edit(Array, 'id=32')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): UserAction->edit()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(UserAction), 'edit')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id=32' at line 1' in F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php:111
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(111): PDO->exec('UPDATE user SET...')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(281): YmzDbPdo->query('UPDATE user SET...')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\Model.php(36): YmzDbPdo->update('user', Array, 'id=32')
+#3 F:\htdocs\YzmPHP\admin\App\Action\user.action.php(67): Model->edit(Array, 'id=32')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): UserAction->edit()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(UserAction), 'edit')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id='32'' at line 1' in F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php:111
+Stack trace:
+#0 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(111): PDO->exec('UPDATE user SET...')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmDbPdo.php(281): YmzDbPdo->query('UPDATE user SET...')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\Model.php(36): YmzDbPdo->update('user', Array, 'id='32'')
+#3 F:\htdocs\YzmPHP\admin\App\Action\user.action.php(67): Model->edit(Array, 'id='32'')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): UserAction->edit()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(UserAction), 'edit')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}

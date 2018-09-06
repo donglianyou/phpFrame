@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#如果访问的文件或目录不是真实存在，分发请求到index.php
+RewriteRule . index.php
+</IfModule>

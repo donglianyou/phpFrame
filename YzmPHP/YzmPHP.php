@@ -12,20 +12,29 @@ class YzmPHP
         set_error_handler(array($this,'AppError'));
         // 自定义异常处理
         set_exception_handler(array($this,'AppException'));
+        if(isset($_SERVER['REQUEST_URI'])){
+            $url = $_SERVER['REQUEST_URI'];
 
-        $url = $_SERVER['REQUEST_URI'];
+            $_arr = explode('/',$url);
 
-        $_arr = explode('/',$url);
+            $action = ucfirst($_arr[1]).'Action';
 
-        $action = ucfirst($_arr[1]).'Action';
+            if ($url=='/') {
+                $action = 'IndexAction';
+            }
+        }
+        
 
-        if ($url=='/') {
-            $action = 'IndexAction';
+        if(isset($_REQUEST['mod'])){
+            $action = ucfirst($_REQUEST['mod']).'Action';
         }
 
         $actionObj = new $action;
-
         $objClass = isset($_arr[2])?$_arr[2]:'index';
+
+        if(isset($_REQUEST['action'])){
+            $objClass = isset($_REQUEST['action'])?$_REQUEST['action']:'index';
+        }
 
         $actionObj->call($actionObj,$objClass);
     }

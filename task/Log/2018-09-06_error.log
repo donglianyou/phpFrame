@@ -9,6 +9,7 @@
 
 报错误时间：【2018-09-06 16:16:30】<br>		错误编号：8<br>		错误信息：Undefined variable: sql<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Action\Index.action.php<br>		错误行数：第39行<br>		请求的地址：yzmphp.cn/index/redis
 
-报错误时间：【2018-09-06 16:41:51】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
-<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/index/redis
+报错误时间：【2018-09-06 16:27:51】<br>		错误编号：8<br>		错误信息：Undefined index: REQUEST_URI<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php<br>		错误行数：第16行<br>		请求的地址：
+
+报错误时间：【2018-09-06 16:34:41】<br>		错误编号：8<br>		错误信息：Undefined index: REQUEST_URI<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php<br>		错误行数：第16行<br>		请求的地址：
 
