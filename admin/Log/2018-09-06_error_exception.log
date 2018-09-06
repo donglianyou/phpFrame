@@ -1,0 +1,107 @@
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+exception 'Exception' with message '没有找到对应的MmCache' in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:43
+Stack trace:
+#0 [internal function]: YzmPHP->load('MmCache')
+#1 F:\htdocs\YzmPHP\admin\App\Util\include\global.php(10): spl_autoload_call('MmCache')
+#2 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(28): setVar('name', 'donglianyou')
+#3 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->mem()
+#4 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'mem')
+#5 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#6 {main}
+exception 'Exception' with message '没有找到对应的Redis' in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:43
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(36): YzmRedis->set('name', 'good')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->redis()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'redis')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+exception 'Exception' with message '没有找到对应的Redis' in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:43
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(36): YzmRedis->set('name', 'good')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->redis()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'redis')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+exception 'Exception' with message '没有找到对应的Redis' in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:43
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(36): YzmRedis->set('name', 'good')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->redis()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(30): Action->call(Object(IndexAction), 'redis')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:26
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}

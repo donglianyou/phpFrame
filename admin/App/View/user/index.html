@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>user</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>用户ID</th>
+                <th>用户名</th>
+                <th>状态</th>
+                <th>排序</th>
+                <th>注册时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach($data as $v){ ?>
+            <tr>
+                <td><?=$v['id']?></td>
+                <td><?=$v['username']?></td>
+                <td><?=$v['statu']?></td>
+                <td><?=$v['sort']?></td>
+                <td><?=date("Y-m-d H:i:s",$v['time'])?></td>
+                <td><a href="/user/view/?user_id=<?=$v['id']?>">查看</a> <a href="/user/edit/?user_id=<?=$v['id']?>">编辑</a> <a href="/user/del/?user_id=<?=$v['id']?>">删除</a></td>
+            </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+</body>
+</html>

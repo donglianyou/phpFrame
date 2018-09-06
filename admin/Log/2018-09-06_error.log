@@ -1,0 +1,11 @@
+报错误时间：【2018-09-06 13:21:49】<br>		错误编号：8<br>		错误信息：Undefined variable: path<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php<br>		错误行数：第45行<br>		请求的地址：yzmphp.cn/user/add
+
+报错误时间：【2018-09-06 13:34:35】<br>		错误编号：2<br>		错误信息：Missing argument 1 for dump(), called in F:\htdocs\YzmPHP\admin\App\Action\Index.action.php on line 28 and defined<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Util\include\global.php<br>		错误行数：第3行<br>		请求的地址：yzmphp.cn/index/mem
+
+报错误时间：【2018-09-06 13:52:35】<br>		错误编号：8<br>		错误信息：Undefined variable: mem<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Action\Index.action.php<br>		错误行数：第29行<br>		请求的地址：yzmphp.cn/index/mem
+
+报错误时间：【2018-09-06 16:12:35】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/index/redis
+
+报错误时间：【2018-09-06 16:16:30】<br>		错误编号：8<br>		错误信息：Undefined variable: sql<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Action\Index.action.php<br>		错误行数：第39行<br>		请求的地址：yzmphp.cn/index/redis
+
