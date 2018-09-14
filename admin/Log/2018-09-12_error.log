@@ -1,0 +1,30 @@
+报错误时间：【2018-09-12 09:15:22】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:17:38】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:22:12】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:22:15】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:23:12】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:23:15】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:23:18】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 09:42:08】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 10:24:30】<br>		错误编号：2<br>		错误信息：json_decode() expects parameter 1 to be string, array given<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Action\Index.action.php<br>		错误行数：第21行<br>		请求的地址：yzmphp.cn/
+
+报错误时间：【2018-09-12 11:34:19】<br>		错误编号：2<br>		错误信息：A non-numeric value encountered<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Action\Index.action.php<br>		错误行数：第68行<br>		请求的地址：yzmphp.cn/index/product
+
+报错误时间：【2018-09-12 11:34:53】<br>		错误编号：2<br>		错误信息：A non-numeric value encountered<br>		所在的文件：F:\htdocs\YzmPHP\admin\App\Action\Index.action.php<br>		错误行数：第68行<br>		请求的地址：yzmphp.cn/index/product
+

@@ -1,0 +1,354 @@
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Exception: 没有找到对应的Redis in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:52
+Stack trace:
+#0 [internal function]: YzmPHP->load('Redis')
+#1 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(39): spl_autoload_call('Redis')
+#2 F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php(110): YzmRedis->connect()
+#3 F:\htdocs\YzmPHP\admin\App\Action\Index.action.php(9): YzmRedis->set('name', 'Jason')
+#4 F:\htdocs\YzmPHP\YzmPHP\core\action.class.php(20): IndexAction->index()
+#5 F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php(39): Action->call(Object(IndexAction), 'index')
+#6 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#7 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}

@@ -13,7 +13,7 @@ class YzmRedis {
     public $name = "queue"; //队列默认名称
     public $q = null; //队列连接对象
     public $configFile = null; //配置文件
-    public $prefix = 'yzm_'; //前缀
+    public $prefix = ''; //前缀
 
     public function __construct($host = '127.0.0.1', $port = '6379') {//构造函数
         if(empty($host) || empty($port)) throw new Exception("Redis 配置有误");
@@ -68,6 +68,12 @@ class YzmRedis {
         return $data ? $data : '';
     }
 
+    public function lrange($key, $start = 0, $end = -1){
+        $this->connect();
+        $data = $this->q->lrange($this->prefix . $key, $start, $end); //lGetRange($key,0,-1);
+        return $data;
+    }
+
     /**
      * 数据出队
      */
@@ -90,7 +96,7 @@ class YzmRedis {
      */
     public function lpush($key, $val) {
         $this->connect();
-        $bool = $this->q->lPush($this->prefix . $key, serialize($val));
+        $bool = $this->q->lPush($this->prefix . $key, $val);
         return $bool;
     }
 
@@ -101,6 +107,39 @@ class YzmRedis {
         $this->connect();
         $data = $this->q->rPop($this->prefix . $key);
         return $data ? unserialize($data) : '';
+    }
+    /**
+     * 添加集合
+     */
+    public function sadd($key, ...$val) {
+        $this->connect();
+        return $this->q->sadd($this->prefix . $key, ...$val);
+    }
+
+
+    /**
+     * 返回集合的交集
+     */
+    public function sinter(...$key) {
+        $this->connect();
+        $data = $this->q->sinter(...$key);
+        return $data;
+    }
+
+    /**
+     * 添加有序集合
+     */
+    public function zadd($key, $score, $val) {
+        $this->connect();
+        return $this->q->zadd($this->prefix . $key, $score, $val);
+    }
+
+    /**
+     * 降序排序显示有序集合，排行榜
+     */
+    public function zrevrange($key, $start = 0, $end = -1, $bool=true) {
+        $this->connect();
+        return $this->q->zrevrange($this->prefix . $key, $start, $end,$bool);
     }
 
     /**
@@ -228,7 +267,63 @@ class YzmRedis {
         $data = $this->q->hExists($this->prefix . $hName, $hKey);
         return $data;
     }
+    /**
+     * 设置过期时间
+     */
+    public function expire($key, $exp = 0) {
+        $this->connect();
+        $data = $this->q->expire($this->prefix . $key, $exp);
+        return $data;
+    }
 
+    /**
+     * 存储用户当前位置
+     */
+    public function geoadd($key, $lng, $lat, $username) {
+        $this->connect();
+        $data = $this->q->geoadd($this->prefix . $key, $lng, $lat, $username);
+        return $data;
+    }
+    /**
+     * 获取地理位置坐标
+     */
+    public function geopos($key, $user) {
+        $this->connect();
+        $data = $this->q->geopos($this->prefix . $key, $user);
+        return $data;
+    }
+    /**
+     * 根据用户查找指定距离附近的人
+     */
+    public function geoRadiusByMember($key, $user, $radius = 5, $units = 'km') {
+        $this->connect();
+        $data = $this->q->geoRadiusByMember($this->prefix . $key, $user, $radius, $units);
+        return $data;
+    }
+    /**
+     * 查找两用户之间的距离
+     */
+    public function geodist($key, $user, $otheruser, $units = 'km') {
+        $this->connect();
+        $data = $this->q->geodist($this->prefix . $key, $user, $otheruser, $units);
+        return $data;
+    }
+    /**
+     * 删除附近的人
+     */
+    public function zrem($key, $user) {
+        $this->connect();
+        $data = $this->q->zrem($this->prefix . $key, $user);
+        return $data;
+    }
+    /**
+     * 获取有序集合
+     */
+    public function zrange($key, $start = 0, $end = -1) {
+        $this->connect();
+        $data = $this->q->zrange($this->prefix . $key, $start, $end);
+        return $data;
+    }
 }
 
 ?>

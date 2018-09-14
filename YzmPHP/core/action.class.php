@@ -25,8 +25,8 @@ class Action
         extract($data);
         require APP_PATH.'App/View/'.$view;
     }
-    public function redirect($url)
+    public function redirect($url,$time = 5)
     {
-        echo "<script>window.location.href='{$url}';</script>";
+        echo '<script>setTimeout(window.location.href="'.$url.'",'.$time.'*1000);</script>';
     }
 }

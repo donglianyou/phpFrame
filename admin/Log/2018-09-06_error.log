@@ -12,3 +12,9 @@
 报错误时间：【2018-09-06 16:41:51】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
 <br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/index/redis
 
+报错误时间：【2018-09-06 16:52:30】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/index/redis
+
+报错误时间：【2018-09-06 16:55:51】<br>		错误编号：2<br>		错误信息：Redis::connect(): connect() failed: ����Ŀ����������ܾ����޷����ӡ�
+<br>		所在的文件：F:\htdocs\YzmPHP\YzmPHP\core\YzmRedis.php<br>		错误行数：第40行<br>		请求的地址：yzmphp.cn/index/redis
+

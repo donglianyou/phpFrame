@@ -113,3 +113,15 @@ Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php
 Stack trace:
 #0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
 #1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
+Error: Class 'Favicon.icoAction' not found in F:\htdocs\YzmPHP\YzmPHP\YzmPHP.php:32
+Stack trace:
+#0 F:\htdocs\YzmPHP\admin\index.php(20): YzmPHP->run()
+#1 {main}
